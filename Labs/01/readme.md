@@ -15,4 +15,6 @@ Q5) ![2023-08-22 (3)](https://github.com/AbdulRahmanAzam/PfFall23/assets/6914144
 
 Q6)  ![image](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/698ed537-76cf-4911-a8d8-6d5687d6ffb0)
 
-Q7) ![image](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/bd9b3c22-4bd5-461e-a5ff-58b4a9984acc)
+Q7) ![image](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/75a822fc-71d3-4c43-9e48-45ea82ab38b2)
+
+
