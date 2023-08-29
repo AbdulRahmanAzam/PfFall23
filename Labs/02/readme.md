@@ -17,3 +17,7 @@
 ![image](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/a83cff4d-999e-4af6-89ab-45d623b3b8dc)
 
 ### Task 6
+![image](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/8fcc75a3-28d1-4ef2-9980-15988aa4b9f5)
+
+### Task 7
+![image](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/a120f536-cd18-453e-98ad-9efe1fed7d0f)
