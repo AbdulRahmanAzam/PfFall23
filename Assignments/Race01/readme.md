@@ -18,6 +18,19 @@
 ### Problem: 5
 ![WhatsApp Image 2023-08-28 at 11 16 29 PM (1)](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/b961ddb6-5d97-4293-9a04-cefca0db206c)
 
-## Race02
+
+## PistonCup_Race02
 
 ### Problem: 6
+![WhatsApp Image 2023-09-05 at 12 33 40 AM](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/5b722ede-2e94-4d8d-ae10-f939dcdf5cbe)
+
+### Problem: 7
+
+### Problem: 8
+![WhatsApp Image 2023-09-05 at 12 32 41 AM](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/10d6b503-155e-4616-a498-47d95af2e518)
+
+### Problem: 9
+![WhatsApp Image 2023-09-05 at 12 32 41 AM (1)](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/08f91104-9828-4df4-a983-5b0a442f2f26)
+
+### Problem: 10
+![WhatsApp Image 2023-09-05 at 12 32 26 AM](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/3c54a7ac-d291-4b80-96a8-e3460638dc2a)
