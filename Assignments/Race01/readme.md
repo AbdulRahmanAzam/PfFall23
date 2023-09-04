@@ -17,3 +17,7 @@
 
 ### Problem: 5
 ![WhatsApp Image 2023-08-28 at 11 16 29 PM (1)](https://github.com/AbdulRahmanAzam/PfFall23/assets/69141440/b961ddb6-5d97-4293-9a04-cefca0db206c)
+
+## Race02
+
+### Problem: 6
