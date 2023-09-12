@@ -1,8 +1,13 @@
 /*
-*programmer : Abdul Rahman Azam
-*Date: 12/sep/2023
-*Descrition: 
-*related Files: 
+*Programmer: Abdul Rahman Azam
+*Date: 12/Sep/2023
+*Description: 
+****
+****
+****
+****
+
+*Related Files: 
 */
 
 //--Include Files--//
@@ -12,15 +17,19 @@
 #include <stdio.h>
 
 int main(){
-	int i;
-	int j;
-	for(j = 1; j < 5; j = j+1){	
-	
-	printf("\n");	
-
-	for(i = 1; i< 5; i = i+1 ){
-	printf("*");
-	};//end loop
-	
-	};//for line change
+    int n, i=0,j=0;//initialize n, i and j
+    printf("Enter any positive Integer ");
+    scanf("%d",&n);//putting value of n
+    
+    while(j < n){
+        j = j+1; 
+        while(i < n){
+            i = i+1;
+            printf("*");
+        }//end while loop for *
+	    
+        i = 0;
+        printf("\n");
+    }//end while loop for break  line
+    
 }//end main
