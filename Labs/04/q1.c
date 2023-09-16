@@ -17,15 +17,15 @@ int main() {
 	scanf("%d", &n);
 
 	while (i < n){
-		j = 0;
+		i = i+1;
 		printf("\n"); 
 		
-		while (j <= i) {
+		while (j < i) {
 			printf("*");
 			j = j+1;
 		};//end while loop for *	
+		j = 0;
 		
-		i = i+1;
 	};//end while loop for line break
 
 }// end main
