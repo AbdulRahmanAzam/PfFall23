@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 
 int main() {
@@ -7,6 +6,7 @@ int main() {
     scanf("%d",&n);
     m=n;
     o=n;
+    int a = n;
     n= n*2 -1;
     
     for(i=1; i<=n;i++){
@@ -18,7 +18,7 @@ int main() {
                 printf(" ");
             }
         }
-        if(i >=4){
+        if(i >=a){
          m = m+1;
          o=o-1;
         }
