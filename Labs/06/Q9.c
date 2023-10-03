@@ -14,7 +14,7 @@ int main() {
         if(min > arr[i]){ //check which number is less than min
             min = arr[i];
         }
-        if(max < arr[i]){//check which number is less than max
+        if(max < arr[i]){//check which number is greater than max
             max = arr[i];
         }
     }
