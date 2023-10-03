@@ -1,7 +1,7 @@
 /* 
 Name:Abdul Rahman Azam 
 Date: 3-oct-2023 
-Description: compute the LCM and GCD of two numbers.
+Description: takes a user input array and prints the sum of its elements.
 */
 #include <stdio.h>
 int main(){
