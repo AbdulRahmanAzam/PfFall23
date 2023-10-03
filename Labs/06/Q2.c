@@ -1,7 +1,7 @@
 /* 
 Name:Abdul Rahman Azam 
 Date: 3-oct-2023 
-Description: check the given number is perfect or not 
+Description: geneate fabonacci series till 10000, Also find the sum of the generated Fibonacci numbers divisible by 3, 5 or 7 only.
 */
 
 #include <stdio.h>
