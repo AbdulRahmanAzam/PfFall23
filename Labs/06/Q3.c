@@ -1,7 +1,7 @@
 /* 
 Name:Abdul Rahman Azam 
 Date: 3-oct-2023 
-Description: check the given number is perfect or not 
+Description: compute the LCM and GCD of two numbers.
 */
 #include <stdio.h>
 int main(){
