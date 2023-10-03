@@ -1,3 +1,8 @@
+/* 
+Name:Abdul Rahman Azam 
+Date: 3-oct-2023 
+Description: check the given number is perfect or not 
+*/
 #include <stdio.h>
 int main(){
    int i, j ,k ,a,b,n;
