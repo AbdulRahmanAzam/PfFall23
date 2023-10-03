@@ -1,21 +1,24 @@
 #include <stdio.h>
 int main(){
-    int i,sum=0,prev=0,a=0,b=1,total=0; //initializing variables
-    int fab = 10000;
-    for(i=1; sum <= fab; i++){
-        a = b;
-        b =sum;
-        sum = a+b;
-        if(sum < fab){
-            printf("%d\n",sum);
-        }
-        if(sum %3 ==0 || sum %5==0|| sum %7==0){ //check divisble by 3, 5 or 7
-            total = total + sum;
-        }
-        if(sum > fab){
-            break;
-        }
-    }//end i loop
-    printf("The sum is %d", total);
-    
+   int i, j ,k ,a,b,n;
+   int GCD=0, LCM=0;
+   printf("Enter first number ");
+   scanf("%d",&a);
+   printf("Enter second number ");
+   scanf("%d",&b);
+   if(a>b){
+       n = a;
+   }else n = b;
+   for(i =n-1; i>=1; i--){
+       if(a %i==0 && b%i==0){
+          int GCD = i;
+          int LCM = (a *b)/GCD;
+        printf("GCD = %d\n", GCD);
+        printf("LCM = %d", LCM);
+        break;
+       }
+        
+   }
+   
+   
 }//end main
