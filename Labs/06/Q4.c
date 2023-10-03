@@ -1,7 +1,8 @@
 /* 
 Name:Abdul Rahman Azam 
 Date: 3-oct-2023 
-Description: check the given number is perfect or not 
+Description: Input= 8,11
+Output= Eight, Nine, Even, Odd
 */
 #include <stdio.h>
 int main(){
