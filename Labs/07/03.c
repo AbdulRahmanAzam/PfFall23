@@ -9,7 +9,7 @@ int main(){
      printf("Enter any number");
      scanf("%d",&n);
      
-    for(i=0;i<n;i++){
+    for(i=0;n>0;i++){
          a = n%10;
          b = b+a;
         
