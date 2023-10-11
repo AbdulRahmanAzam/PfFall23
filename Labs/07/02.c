@@ -1,9 +1,27 @@
 /* 
 Name:Abdul Rahman Azam 
 Date: 3-oct-2023 
-Description: reverse the array by two steps
-              Input: {1, 2, 3, 4, 5, 6, 7}, d = 2
-              Output: {3, 4, 5, 6, 7, 1, 2}
+Description: OUTPUT
+   *****
+   *****
+   *****
+***********
+    * *
+     |
+    \_/
+    | |
+*************
+** ***** **
+** ***** **
+** ***** **
+** ***** **
+   *****
+   ** **
+   ** **
+   ** **
+   ** **
+   ** **
+***** *****
 */
 #include <stdio.h>
 int reverse(){
