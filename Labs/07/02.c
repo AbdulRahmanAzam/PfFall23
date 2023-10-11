@@ -1,27 +1,9 @@
 /* 
 Name:Abdul Rahman Azam 
 Date: 3-oct-2023 
-Description: OUTPUT
-   *****
-   *****
-   *****
-***********
-    * *
-     |
-    \_/
-    | |
-*************
-** ***** **
-** ***** **
-** ***** **
-** ***** **
-   *****
-   ** **
-   ** **
-   ** **
-   ** **
-   ** **
-***** *****
+Description: reverse the array to d steps
+Input: {1, 2, 3, 4, 5, 6, 7},
+Output: {3, 4, 5, 6, 7, 1, 2}
 */
 #include <stdio.h>
 int reverse(){
