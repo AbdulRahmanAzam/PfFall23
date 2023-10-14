@@ -1,4 +1,10 @@
+/* 
+Name:Abdul Rahman Azam 
+Date: 3-oct-2023 
+Description: multiplication of 2x2 matrix
+*/
 #include<stdio.h>
+//output of the required matrix
 int output(int arr[2][2]){
     int i, j;
     for(i=0;i<2;i++){
@@ -7,7 +13,7 @@ int output(int arr[2][2]){
         }
         printf("\n");
     }
-}
+}//input of the required matrix
 int input(int arr[2][2]){
     int i,j;
     for(i=0;i<2;i++){
@@ -15,7 +21,7 @@ int input(int arr[2][2]){
             scanf("%d ",&arr[i][j]);
         }
     }
-}
+}//multiplication of both matrix
 int mul(int arr[2][2], int brr[2][2]){
     int crr[2][2]={0};
     int i,j,k,sum=0;
