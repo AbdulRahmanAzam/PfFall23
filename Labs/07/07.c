@@ -3,7 +3,7 @@ int output(int arr[2][2]){
     int i, j;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
-            printf("%d",arr[i][j]);
+            printf("%d ",arr[i][j]);
         }
         printf("\n");
     }
@@ -12,7 +12,7 @@ int input(int arr[2][2]){
     int i,j;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
-            scanf("%d",&arr[i][j]);
+            scanf("%d ",&arr[i][j]);
         }
     }
 }
@@ -21,12 +21,14 @@ int mul(int arr[2][2], int brr[2][2]){
     int i,j,k,sum=0;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
-             sum = arr[i][j] * brr[j][i] + arr[j][i] * brr[i][j]  ;
-                printf("%d\n",sum); 
+            for(k=0;k<2;k++){
+                crr[i][j] += arr[i][k] * brr[k][j];
+            }
                 
         }
     }
-
+    printf("The resultant is\n");
+    return output(crr);
 }
 int main(){
     int arr[2][2],brr[2][2];
@@ -42,4 +44,4 @@ int main(){
     mul(arr,brr);
     
     
-}
+}//end main
