@@ -10,7 +10,7 @@ int main(){
             for(k=j+1;k<n*n;k++){
                 for(l=k+1;l<n*n;l++){
                     if(i*i*i + j*j*j == k*k*k + l*l*l  ){
-                        printf("%d %d + %d %d == %d\n",i,j,k,l, i*i*i+j*j*j );
+                        printf("%d\n", i*i*i+j*j*j );
                     }
                 }
             }//end k 
