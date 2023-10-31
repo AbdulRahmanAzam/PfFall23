@@ -9,15 +9,15 @@ void reverse(int *arr,int size){
     }
 }
 int main(){
-    int arr[10] = {1,2,3,4,5};
+    int arr[10];
     printf("Enter the value of an array \n");
     
-    for(int i =0;i<5;i++){
+    for(int i =0;i<10;i++){
         scanf("%d", &arr[i]);
     }
     printf("\n");
-    reverse(arr,5);
-    for(int i =0;i<5;i++){
+    reverse(arr,10);
+    for(int i =0;i<10;i++){
         printf("%d ",arr[i]);
     }
 }
