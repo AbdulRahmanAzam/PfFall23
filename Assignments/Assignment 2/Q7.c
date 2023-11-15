@@ -1,8 +1,13 @@
-CORRECT AND COMPLETE IT
-
 #include <stdio.h>
+void print(int arr[5][2]){
+    for(int i=0;i<5;i++){
+        for(int j=0;j<2;j++){
+            printf("%d     ",arr[i][j]);
+        }
+        printf("\n");
+    }
+}
 int main(){
-    // int age,price;
     int arr[5][2] = {
         {16,1500},
         {17,1200},
@@ -10,36 +15,37 @@ int main(){
         {19,900},
         {18, 1800}
     };
-    int age[5];
-    int price[5];
     for(int i =0;i<5;i++){
-        for(int j=0;j<2;j++){
-            if(j==0) age[i] = arr[i][j];
-            else if(j==1) price[i] = arr[i][j];
-        }//end j loop
-    }//end i loop
-    
-    for(int i =0;i<5;i++){
-        printf("%d ", age[i]);
-    }//end i loop
-    
-    for(int i =0;i<4;i++){
         for(int j=0;j<4;j++){
-            if(age[j+1] <age[j]){
-                int temp = age[j];
-                age[j] = age[j+1];
-                age[j+1] = temp;
-            }
-            if(price[j+1] >price[j]){
-                int temp = price[j];
-                price[j] = price[j+1];
-                price[j+1] = temp;
+            if(arr[j+1][0] < arr[j][0]){
+                int temp = arr[j][0];
+                arr[j][0] = arr[j+1][0];
+                arr[j+1][0] = temp;
+                
+                int temp2 = arr[j][1];
+                arr[j][1] = arr[j+1][1];
+                arr[j+1][1] = temp2;
             }
         }//end j loop
     }//end i loop
-    printf("\n");
+    
+    printf("Age    Price\n");
+    print(arr);
+    
     for(int i =0;i<5;i++){
-        printf("age %d price %d\n", age[i], price[i]);
+        for(int j=0;j<4;j++){
+            if(arr[j][1] < arr[j+1][1]){
+                int temp = arr[j][1];
+                arr[j][1] = arr[j+1][1];
+                arr[j+1][1] = temp;
+                
+                int temp2 = arr[j][0];
+                arr[j][0] = arr[j+1][0];
+                arr[j+1][0] = temp2;
+            }
+        }//end j loop
     }//end i loop
+    printf("\n\nPrice    Age\n");
+    print(arr);
     
 }//end main
