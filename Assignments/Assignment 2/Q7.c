@@ -1,3 +1,9 @@
+/*
+Name : Abdul Rahman Azam 
+Roll no : 23k-0061
+Date : 3-Nov-2023
+Discription : sorting age in asccending order and price in descending order
+*/
 #include <stdio.h>
 void print(int arr[5][2]){
     for(int i=0;i<5;i++){
@@ -29,7 +35,7 @@ int main(){
         }//end j loop
     }//end i loop
     
-    printf("Age    Price\n");
+    printf("Age in ascending order/nAge    Price\n");
     print(arr);
     
     for(int i =0;i<5;i++){
@@ -45,7 +51,7 @@ int main(){
             }
         }//end j loop
     }//end i loop
-    printf("\n\nPrice    Age\n");
+    printf("\n\nPrice in descending order\nPrice    Age\n");
     print(arr);
     
 }//end main
