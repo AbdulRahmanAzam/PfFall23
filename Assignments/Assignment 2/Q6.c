@@ -1,4 +1,8 @@
-/* ##Discription: find all different number pairs that are equal to target
+/*
+#Name: Abdul Rahman Azam
+## Roll no: 23k-0061
+##Date: 3-Nov-2023
+##Discription: find all different number pairs that are equal to target
 */
   
 #include <stdio.h>
