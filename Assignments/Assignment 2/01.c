@@ -23,6 +23,7 @@ int main() {
     scanf("%d",&a);
     
     // input
+    printf("Now enter no of batting performance \n");
     for(i=0;i<b;i++){
         for(j=0;j<a;j++){
             printf("Enter ");
@@ -55,6 +56,3 @@ int main() {
         cent = 0;
     }//end i loop
 }//end main
-
-
-
