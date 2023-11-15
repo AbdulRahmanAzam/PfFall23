@@ -1,14 +1,19 @@
-//NOT COMPLETED, CHECK AGAIN
-
+/*Name : Abdul Rahman Azam 
+Roll no : 23k-0061
+Date : 3-Nov-2023
+Discription : find largest square sub matrix of 1's
+*/
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 int main(){
-    int a=0,b=2,c=2;
-    int x,y;
+    int count=0,b=0,c=2;
+    int x=0,y=0;
     int arr[4][4] = {
         {1,0,1,1},
-        {0,1,1,0},
-        {1,0,1,1},
+        {0,0,1,0},
+        {1,1,1,1},
         {1,0,1,1},
     };
     int i,j,k,l;
@@ -16,31 +21,17 @@ int main(){
     
     for(i=0;i<4;i++){
         for(j=0;j<4;j++){
-            a=0;
-            for(k=i;k<b;k++){
-                for(l=j;l<c;l++){
-                        if(arr[k][l]){
-                            a++;
-                            // printf("%d \n",arr[k][l]);
-                        }           
-                }//end l
-            }//end k
-            if(a== 4){
-                // printf("\nhello%d %d %d\n",a, k,l);
-                x=k;
-                y=l;
+            count=0;
+            for(k=i;k<i+2;k++){
+                for(l=j;l<j+2;l++){
+                    if(arr[k][l])count++;
+                }
             }
-            
-            if(c==4){
-                c=2;
-                b++;
+            if(count==4){
+               x=i;
+               y=j;
             }
-            c++;
-            if(b==4){
-                break;
-            }
-        }//end j 
-    }//end i 
-    
-    printf("sx %d sy %d x %d y %d",x-2,y-2, x,y);
+        }
+    }
+    printf("row = %d - %d \ncolumn = %d - %d",x,x+2,y,y+2);
 }//end main
