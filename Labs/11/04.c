@@ -1,50 +1,44 @@
 /*
 Creator : Abdul Rahman Azam\
 Date: 21-nov-2023
-Desciption: make date struct and give day, month, and year
+Desciption: make struct of employee and increase their salary according to given chart
 */
 
+
 #include <stdio.h>
-
-struct Employee {
-    char name[50];
-    float salary;
-    int hoursOfWork;
+//struct made
+struct employee{
+    char name[20];
+    int salary;
+    int hours;
 };
-
-void increaseSalary(struct Employee *employee) {
-    if (employee->hoursOfWork >= 8 && employee->hoursOfWork < 10) {
-        employee->salary += 50.0;
-    } else if (employee->hoursOfWork >= 10 && employee->hoursOfWork < 12) {
-        employee->salary += 100.0;
-    } else if (employee->hoursOfWork >= 12) {
-        employee->salary += 150.0;
+//function of increase salary useds pointer in structure
+void increaseSalary(struct employee *emp){
+    if(emp->hours>=8 && emp->hours <10){
+        emp->salary += 50;
+    }else if(emp->hours >=10 && emp->hours<12){
+        emp->salary += 100;
+    }else if(emp->hours>=12){
+        emp->salary += 150;
     }
 }
 
-int main() {
-    const int numEmployees = 10;
-    struct Employee employees[numEmployees];
-
-    for (int i = 0; i < numEmployees; i++) {
-        printf("Enter name of employee %d: ", i + 1);
-        scanf("%s", employees[i].name);
-
-        printf("Enter salary of employee %d: ", i + 1);
-        scanf("%f", &employees[i].salary);
-
-        printf("Enter hours of work per day for employee %d: ", i + 1);
-        scanf("%d", &employees[i].hoursOfWork);
+int main(){
+    struct employee emp[10];//structure declaration
+    //taking all the inputs
+    for(int i=0;i<10;i++){
+        printf("\nEnter the name of the employee ");
+        scanf("%s",emp[i].name);
+        printf("Enter the salary ");
+        scanf("%d",&emp[i].salary);
+        printf("Enter hours work per day");
+        scanf("%d",&emp[i].hours);
+        
     }
-
-    for (int i = 0; i < numEmployees; i++) {
-        increaseSalary(&employees[i]);
+    //printing names and their salaries
+    for(int i=0;i<10;i++){
+        increaseSalary(&emp[i]); //call increasesalary function
+        printf("Name: %s\n",emp[i].name);
+        printf("Salary: %d\n",emp[i].salary);
     }
-
-    printf("\nEmployee Names and Final Salaries:\n");
-    for (int i = 0; i < numEmployees; i++) {
-        printf("%s: $%.2f\n", employees[i].name, employees[i].salary);
-    }
-
-    return 0;
-}
+}//end main
